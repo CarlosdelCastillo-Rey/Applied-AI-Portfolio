@@ -1,16 +1,16 @@
-# Applied Artificial Intelligence — Tecnológico de Monterrey
+# Applied AI Portfolio — Tecnológico de Monterrey
 
 **Author:** Carlos F. del Castillo Rey  
 **Program:** Master’s in Applied Artificial Intelligence  
 
 This portfolio compiles academic and applied projects developed throughout the Master’s in Applied Artificial Intelligence at Tecnológico de Monterrey.  
-It demonstrates real-world use cases of Machine Learning, Deep Learning, NLP, Recommender Systems, and Big Data technologies in Python.
+It demonstrates real-world applications of **Machine Learning, Deep Learning, NLP, Recommender Systems, and Big Data** technologies using Python.
 
 ---
 
 ## 📂 Repository Structure
 
-Applied-Artificial-Intelligence/
+Applied-AI-Portfolio/
 │
 ├── 01_Regression/
 │   ├── Linear-Regression_California-Housing.ipynb
@@ -47,48 +47,46 @@ Applied-Artificial-Intelligence/
 ## 🧠 Project Categories
 
 ### **01 — Regression**
-Projects focused on continuous variable prediction:
-- Feature engineering and transformations (Box-Cox, log, square-root)
+Predicting continuous values using:
+- Feature transformations (Box-Cox, log, square-root)
 - Linear and regularized regression
-- Model validation using K-Fold, RMSE, MAE, and MAPE
+- K-Fold validation with RMSE, MAE, MAPE metrics
 
 ### **02 — Classification**
-Categorical prediction and imbalanced-data handling:
+Categorical prediction and imbalanced learning:
 - Logistic Regression, KNN, Random Forest, XGBoost
-- SMOTE and class balancing
-- ROC, Precision-Recall, and G-Mean evaluation
+- Class balancing (SMOTE)
+- ROC, PR, and G-Mean metrics
 
 ### **03 — Time Series**
 Forecasting and temporal modeling:
-- ARIMA, Prophet, and LSTM model comparison
-- Trend and seasonality detection
+- ARIMA, Prophet, and LSTM models
+- Seasonality and trend analysis
 - Deep learning-based forecasting
 
 ### **04 — Recommenders**
 Collaborative filtering and latent factor models:
-- SVD and cosine similarity for recommendations
-- User–item matrices and data normalization
-- Evaluation through recall/precision on ranked outputs
+- Singular Value Decomposition (SVD)
+- Cosine similarity & user–item matrices
+- Model evaluation on ranked outputs
 
 ### **05 — Multimodel Learning**
-Model comparison and interpretability:
-- Multi-algorithm benchmarks
+Model benchmarking and evaluation:
+- Multi-algorithm comparison
 - Dimensionality reduction with TruncatedSVD
-- Learning curve analysis
+- Learning curve visualization
 
 ### **06 — NLP (Natural Language Processing)**
-Upcoming projects covering:
-- Tokenization and text preprocessing (spaCy, NLTK)
-- Embeddings (Word2Vec, BERT)
-- Sentiment and topic classification
-- Vectorization and document similarity
+Upcoming projects:
+- Tokenization, lemmatization (spaCy, NLTK)
+- Word & sentence embeddings (Word2Vec, BERT)
+- Text classification and topic modeling
 
 ### **07 — Big Data (Distributed Systems & MLlib)**
-Upcoming projects in large-scale data analytics:
-- Apache Spark & PySpark processing
-- MLlib models for distributed learning
-- ETL and streaming data pipelines
-- Integration with cloud-based environments
+Upcoming projects:
+- PySpark & Apache Spark data pipelines
+- Distributed Machine Learning with MLlib
+- ETL and streaming data integration
 
 ---
 
@@ -98,12 +96,12 @@ Upcoming projects in large-scale data analytics:
 - **Libraries:** scikit-learn, pandas, numpy, seaborn, matplotlib, TensorFlow/Keras, Prophet, XGBoost, imbalanced-learn, PySpark  
 - **Concepts:**  
   - Regression & Classification  
-  - Model Evaluation (Cross-validation, ROC/PR curves)  
+  - Cross-validation and model evaluation  
   - Dimensionality Reduction (SVD, PCA)  
   - Time-Series Forecasting (ARIMA, Prophet, LSTM)  
   - Recommender Systems  
-  - NLP (Transformers, BERT, Word2Vec)  
-  - Big Data (Spark, MLlib, distributed pipelines)
+  - NLP (BERT, Transformers, Word2Vec)  
+  - Big Data (Spark, MLlib, distributed computing)
 
 ---
 
@@ -119,3 +117,36 @@ Master’s in Applied Artificial Intelligence — Tecnológico de Monterrey
 
 ## 🏷️ Keywords
 machine-learning, data-science, applied-ai, regression, classification, forecasting, recommender-systems, nlp, big-data, spark, tensorflow, pytorch, scikit-learn, tec-de-monterrey
+
+---
+
+# 🚀 Upload Instructions (All Steps Together)
+
+1️⃣ **Open Git Bash** in your project folder:  
+```bash
+cd "D:/Mestria/ML/Github/Applied-AI-Portfolio"
+```
+
+2️⃣ **Initialize the repository and commit your files:**  
+```bash
+git init
+git add .
+git commit -m "Initial upload - Applied AI Portfolio"
+```
+
+3️⃣ **Connect to your GitHub repository (SSH):**  
+```bash
+git remote add origin git@github.com:CarlosdelCastillo-Rey/Applied-AI-Portfolio.git
+```
+
+4️⃣ **Push everything to GitHub:**  
+```bash
+git branch -M main
+git push -u origin main
+```
+
+5️⃣ ✅ **Done!**
+Your full project will appear at:  
+👉 https://github.com/CarlosdelCastillo-Rey/Applied-AI-Portfolio
+
+---
