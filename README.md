@@ -1,63 +1,121 @@
-# Applied AI Portfolio — Tecnológico de Monterrey
+# Applied Artificial Intelligence — Tecnológico de Monterrey
 
 **Author:** Carlos F. del Castillo Rey  
 **Program:** Master’s in Applied Artificial Intelligence  
 
-This repository contains academic projects demonstrating the application of **Machine Learning, Data Science, and Artificial Intelligence** techniques in real-world contexts such as predictive modeling, time-series forecasting, classification, and recommendation systems.  
-All notebooks were developed as part of the **course “Inteligencia Artificial y Aprendizaje Automático” (AI & Machine Learning)**.
+This portfolio compiles academic and applied projects developed throughout the Master’s in Applied Artificial Intelligence at Tecnológico de Monterrey.  
+It demonstrates real-world use cases of Machine Learning, Deep Learning, NLP, Recommender Systems, and Big Data technologies in Python.
 
 ---
 
-## Overview
+## 📂 Repository Structure
 
-| # | Notebook Name | Description |
-|---|----------------|-------------|
-| 1 | **Linear-Regression_California-Housing.ipynb** | Implements a full regression workflow using the California Housing dataset. Includes EDA, feature transformations (Box-Cox, log, square-root), and custom metric implementation (RMSE, MAE, MAPE) with K-Fold validation. |
-| 2 | **Employee-Attrition_Prediction-IBM-HR.ipynb** | Predictive analytics model for employee attrition using logistic regression and KNN. Covers data cleaning, encoding, stratified splitting, hyperparameter tuning, and performance evaluation. |
-| 3 | **Credit-Risk_Prediction_SouthGermanDataset.ipynb** | Classification model for credit scoring using the South German Credit dataset. Includes feature engineering, class rebalancing (SMOTE), and evaluation across multiple algorithms (RF, KNN, XGBoost, MLP). |
-| 4 | **Learning-Curves_Facebook-Ads.ipynb** | Regression models to predict social media engagement based on Facebook campaign metrics. Demonstrates cyclical variable encoding, feature engineering, and learning curve analysis to diagnose overfitting and underfitting. |
-| 5 | **Imbalanced-Classification_Oil-Spill.ipynb** | Binary classification of oil spill occurrences from satellite images. Uses geometric mean (G-Mean), ROC, and Precision-Recall curves for imbalanced evaluation and model benchmarking. |
-| 6 | **Time-Series-Forecasting_Champagne-Sales.ipynb** | Forecasting project comparing ARIMA, Prophet, and LSTM models on monthly champagne sales data. Evaluates performance via RMSE and visual comparison of model predictions. |
-| 7 | **Recommendation-System_SVD_Restaurant-Ratings.ipynb** | Recommender system built with Singular Value Decomposition (SVD) using the UCI Restaurant & Consumer dataset. Demonstrates matrix construction, cleaning, and cosine similarity for item recommendations. |
-| 8 | **Forecasting_Prophet-LSTM-ARIMA.ipynb** | Advanced comparison of hybrid time-series models (ARIMA, Prophet, LSTM). Focuses on scaling, sequence generation, and deep learning evaluation for trend forecasting. |
-| 9 | **Multimodel-Learning_Evaluation.ipynb** | Multi-algorithm comparison on regression and classification problems using cross-validation and model interpretability techniques. |
-| 10 | **Dimensionality-Reduction_SVD.ipynb** | Practical demonstration of dimensionality reduction using TruncatedSVD for feature compression and latent structure discovery in user-item matrices. |
-| 11 | **Social-Media-Performance_Modeling.ipynb** | Modeling of post-performance metrics on Facebook using supervised regression and feature importance analysis from Moro et al. (Elsevier). |
-| 12 | **Regression-Modeling_with-FeatureEngineering.ipynb** | Exploratory regression notebook focusing on transformation pipelines, scaling, and feature selection to optimize prediction accuracy. |
-| 13 | **Predictive-Analytics_Pipeline-EDA.ipynb** | Comprehensive pipeline integrating preprocessing, encoding, and model evaluation using scikit-learn’s modular approach. |
+Applied-Artificial-Intelligence/
+│
+├── 01_Regression/
+│   ├── Linear-Regression_California-Housing.ipynb
+│   ├── Regression-Modeling_with-FeatureEngineering.ipynb
+│
+├── 02_Classification/
+│   ├── Employee-Attrition_Prediction-IBM-HR.ipynb
+│   ├── Credit-Risk_Prediction_SouthGermanDataset.ipynb
+│   ├── Imbalanced-Classification_Oil-Spill.ipynb
+│
+├── 03_TimeSeries/
+│   ├── Time-Series-Forecasting_Champagne-Sales.ipynb
+│   ├── Forecasting_Prophet-LSTM-ARIMA.ipynb
+│
+├── 04_Recommenders/
+│   ├── Recommendation-System_SVD_Restaurant-Ratings.ipynb
+│   ├── Predictive-Analytics_Pipeline-EDA.ipynb
+│
+├── 05_Multimodel/
+│   ├── Learning-Curves_Facebook-Ads.ipynb
+│   ├── Multimodel-Learning_Evaluation.ipynb
+│   ├── Dimensionality-Reduction_SVD.ipynb
+│
+├── 06_NLP/
+│   ├── (Coming soon: Text classification, sentiment analysis, embeddings, topic modeling)
+│
+├── 07_BigData/
+│   ├── (Coming soon: PySpark, MLlib, distributed data pipelines, and scalable ML systems)
+│
+└── README.md
 
 ---
 
-## Technologies Used
+## 🧠 Project Categories
 
-- **Languages:** Python 3.10+, SQL (for data extraction)
-- **Libraries:** scikit-learn, pandas, numpy, seaborn, matplotlib, TensorFlow/Keras, Prophet, XGBoost, imbalanced-learn
+### **01 — Regression**
+Projects focused on continuous variable prediction:
+- Feature engineering and transformations (Box-Cox, log, square-root)
+- Linear and regularized regression
+- Model validation using K-Fold, RMSE, MAE, and MAPE
+
+### **02 — Classification**
+Categorical prediction and imbalanced-data handling:
+- Logistic Regression, KNN, Random Forest, XGBoost
+- SMOTE and class balancing
+- ROC, Precision-Recall, and G-Mean evaluation
+
+### **03 — Time Series**
+Forecasting and temporal modeling:
+- ARIMA, Prophet, and LSTM model comparison
+- Trend and seasonality detection
+- Deep learning-based forecasting
+
+### **04 — Recommenders**
+Collaborative filtering and latent factor models:
+- SVD and cosine similarity for recommendations
+- User–item matrices and data normalization
+- Evaluation through recall/precision on ranked outputs
+
+### **05 — Multimodel Learning**
+Model comparison and interpretability:
+- Multi-algorithm benchmarks
+- Dimensionality reduction with TruncatedSVD
+- Learning curve analysis
+
+### **06 — NLP (Natural Language Processing)**
+Upcoming projects covering:
+- Tokenization and text preprocessing (spaCy, NLTK)
+- Embeddings (Word2Vec, BERT)
+- Sentiment and topic classification
+- Vectorization and document similarity
+
+### **07 — Big Data (Distributed Systems & MLlib)**
+Upcoming projects in large-scale data analytics:
+- Apache Spark & PySpark processing
+- MLlib models for distributed learning
+- ETL and streaming data pipelines
+- Integration with cloud-based environments
+
+---
+
+## ⚙️ Technologies Used
+
+- **Languages:** Python 3.10+, SQL  
+- **Libraries:** scikit-learn, pandas, numpy, seaborn, matplotlib, TensorFlow/Keras, Prophet, XGBoost, imbalanced-learn, PySpark  
 - **Concepts:**  
-  - Supervised Learning (Regression, Classification)  
-  - Model Evaluation (Cross-validation, Learning Curves, ROC/PR)  
-  - Dimensionality Reduction (SVD)  
+  - Regression & Classification  
+  - Model Evaluation (Cross-validation, ROC/PR curves)  
+  - Dimensionality Reduction (SVD, PCA)  
   - Time-Series Forecasting (ARIMA, Prophet, LSTM)  
   - Recommender Systems  
-  - Data Preprocessing & Feature Engineering  
+  - NLP (Transformers, BERT, Word2Vec)  
+  - Big Data (Spark, MLlib, distributed pipelines)
 
 ---
 
-## Repository Structure
-```
-Applied-AI-Portfolio_TecMonterrey/
-│
-├── Linear-Regression_California-Housing.ipynb
-├── Employee-Attrition_Prediction-IBM-HR.ipynb
-├── Credit-Risk_Prediction_SouthGermanDataset.ipynb
-├── Learning-Curves_Facebook-Ads.ipynb
-├── Imbalanced-Classification_Oil-Spill.ipynb
-├── Time-Series-Forecasting_Champagne-Sales.ipynb
-├── Recommendation-System_SVD_Restaurant-Ratings.ipynb
-├── (other notebooks...)
-└── README.md
-```
+## 👨‍💻 Author
+
+**Carlos F. del Castillo Rey**  
+Master’s in Applied Artificial Intelligence — Tecnológico de Monterrey  
+- 💼 Background: Aerospace manufacturing & data analytics  
+- 🌎 Languages: English, Spanish, French  
+- 📫 [LinkedIn Profile](https://www.linkedin.com/in/carlosdelcastillorey)
 
 ---
 
-## Keywords / Tags
-machine-learning, data-science, artificial-intelligence, regression, classification, forecasting, recommendation-systems, time-series, svd, prophet, lstm, scikit-learn, python, applied-ai, tec-de-monterrey
+## 🏷️ Keywords
+machine-learning, data-science, applied-ai, regression, classification, forecasting, recommender-systems, nlp, big-data, spark, tensorflow, pytorch, scikit-learn, tec-de-monterrey
